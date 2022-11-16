@@ -10,17 +10,13 @@
         <!-- Fonts -->
         <link rel="stylesheet" href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap">
 
+        <!-- TW Elements -->
+        <script src="/js/index.min.js"></script>
+        <link rel="stylesheet" href="/css/index.min.css" />
+
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
-
-        <!-- Scripts -->
-        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-        <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js" defer></script>        
-		<script src="js/app.js" defer></script>
-
-        <!-- Styles -->
-        <link rel="stylesheet" href="css/app.css">
-
+        
     </head>
     <body class="font-sans antialiased">
         <div class="min-h-screen bg-gray-100">
